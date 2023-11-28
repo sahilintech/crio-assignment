@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+#taskList {
+  list-style: none;
+  padding: 0;
+}
+
+.taskName {
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid #eee;
+  cursor: pointer;
+}
+
+li {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  cursor: pointer;
+}
+
